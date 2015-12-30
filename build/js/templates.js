@@ -1,0 +1,2 @@
+angular.module("myApp.controller").run(["$templateCache", function($templateCache) {$templateCache.put("view1.html","<h1>{{vm.title}}</h1>\n<p><a ui-sref=\"view2\">view2</a></p>");
+$templateCache.put("view2.html","<h1>{{vm.title}}</h1>\n<p><button ng-click=\"vm.goback()\">goback</button></p>");}]);
